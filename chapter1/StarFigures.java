@@ -37,18 +37,18 @@ public class StarFigures {
         printLines();
         printX();
     }
-                                                                                            
+    
     public static void printLines() {
         System.out.println("*****");
         System.out.println("*****");
     }
-                                                                                                                        
+    
     public static void printX() {
         System.out.println(" * *");
         System.out.println("  *");
         System.out.println(" * *");
     }
-                                                                                                                                                            
+    
     public static void printThreeStars() {
         System.out.println("  *");
         System.out.println("  *");

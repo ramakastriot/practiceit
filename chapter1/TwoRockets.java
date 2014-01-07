@@ -32,14 +32,14 @@ public class TwoRockets {
         System.out.println("  /  \\     /  \\");
         System.out.println(" /    \\   /    \\");
     }
-                                                                                        
+
     public static void printSquare() {
         System.out.println("+------+ +------+");
         System.out.println("|      | |      |");
         System.out.println("|      | |      |");
         System.out.println("+------+ +------+");
     }
-                                                                                                                                    
+
     public static void printUSA() {
         System.out.println("|United| |United|");
         System.out.println("|States| |States|");

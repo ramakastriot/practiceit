@@ -41,11 +41,11 @@ public class Egg2 {
         System.out.println(" /       \\");
         System.out.println("/         \\");
     }
-                                                                                                                                
+
     public static void printMiddle() {
         System.out.println("-\"-'-\"-'-\"-");
     }
-                                                                                                                                                    
+
     public static void printBottom() {
         System.out.println("\\         /");
         System.out.println(" \\_______/");
