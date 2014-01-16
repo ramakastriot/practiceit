@@ -14,13 +14,13 @@ public class DollarFigure {
             for(int j = 0; j < 2 * i - 2; j++)
                 System.out.print("*");
                 
-            for(int j = 0; j < -i + 8; j++)
+            for(int j = 0; j < -i + 8; j++)
                 System.out.print("$");
                 
             for(int j = 0; j < -2 * i + 16; j++)
                 System.out.print("*");
                 
-            for(int j = 0; j < -i + 8; j++)
+            for(int j = 0; j < -i + 8; j++)
                 System.out.print("$");
                 
             for(int j = 0; j < 2 * i - 2; j++)
