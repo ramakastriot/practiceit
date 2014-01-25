@@ -1,4 +1,6 @@
-practice-it
+Practice-it
 ===========
 
-Solutions to Practice-It problems
+Solutions to Practice-It problems.
+
+http://practiceit.cs.washington.edu/practiceit/
