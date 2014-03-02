@@ -13,7 +13,7 @@ private int countEvenBranches(IntTreeNode node) {
     int count = 0;
     
     if(node.data % 2 == 0 && (node.left != null || node.right != null))
-        count ++;
+        count++;
         
     return count + countEvenBranches(node.left) +
         countEvenBranches(node.right);
