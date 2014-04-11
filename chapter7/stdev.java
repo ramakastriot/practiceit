@@ -16,7 +16,7 @@ public double stdev(int[] a) {
     avg /= a.length;
     
     for(int i = 0; i < a.length; i++) {
-        num += (a[i] - avg) * (a[i] - avg);
+        num += (a[i] - avg) * (a[i] - avg);
     }
     
     return Math.sqrt(num / (a.length - 1));
