@@ -23,7 +23,7 @@ public int select(int[] a, int p, int r, int i) {
 }
 
 public int partition(int[] a, int p, int r) {
-    int x = a[r];
+    int x = a[r];
     int i = p - 1;
     int temp;
     
