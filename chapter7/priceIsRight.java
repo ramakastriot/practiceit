@@ -6,7 +6,7 @@
  * the price and the values in bids will all be greater than or equal to 1. Do 
  * not modify the contents of the array passed to your method as a parameter.
  */
-public int priceIsRight(int[] bids, int price) {
+public int priceIsRight(int[] bids, int price) {
     int bid = -1;
     
     for(int i = 0; i < bids.length; i++) {
