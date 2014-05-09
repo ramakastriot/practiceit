@@ -18,10 +18,10 @@ public class Face {
         g.drawOval(x, y, 100, 100);   // face outline
         
         g.setColor(Color.BLUE);
-        g.fillOval(x + 20, y + 30, 20, 20);     // eyes
+        g.fillOval(x + 20, y + 30, 20, 20);     // eyes
         g.fillOval(x + 60, y + 30, 20, 20);
         
-        g.setColor(Color.RED);          // mouth
+        g.setColor(Color.RED);          // mouth
         g.drawLine(x + 30, y + 70, x + 70, y + 70);
     }
 }
