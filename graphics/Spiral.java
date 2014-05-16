@@ -18,7 +18,7 @@ public class Spiral {
         
         while(len > 0) {
             switch(i % 4) {
-                case 0:
+                case 0:
                 endX += len;
                 endY = startY;
                 len -= 10;
