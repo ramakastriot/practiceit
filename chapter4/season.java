@@ -14,7 +14,7 @@ public String season(int m, int d) {
         return "Winter";
     } else if((3 < m && m < 6) || (m == 3 && d >= 16) || (m == 6 && d <= 15)) {
         return "Spring";
-    } else if((6 < m && m < 9) || (m == 6 && d >= 16) ||(m == 9 && d <= 15)) {
+    } else if((6 < m && m < 9) || (m == 6 && d >= 16) || (m == 9 && d <= 15)) {
         return "Summer";
     } else {
         return "Fall";
