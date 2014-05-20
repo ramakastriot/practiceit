@@ -3,7 +3,7 @@
  * that the user types at least one non-negative even integer.
  */
 public void evenSum() {
-    Scanner console = new Scanner(System.in);
+    Scanner console = new Scanner(System.in);
     System.out.print("how many integers? ");
     int num = console.nextInt();
     int sum = 0;
