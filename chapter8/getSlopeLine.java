@@ -1,4 +1,5 @@
 /* Add the following method to your Line class from the previous exercise:
+ *
  * public double getSlope()
  *
  * Returns the slope of this line. The slope of a line between points (x1, y1) 
