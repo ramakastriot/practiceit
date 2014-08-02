@@ -18,13 +18,11 @@ public int mostCommonNames(Scanner sc) {
     
     while(sc.hasNextLine()) {
         Scanner line = new Scanner(sc.nextLine());
-        
         unique++;
         int maxCount = 1;
         String maxName = line.next();
         int count = 1;
         String prevName = maxName;
-
         
         while(line.hasNext()) {
             String currentName = line.next();
