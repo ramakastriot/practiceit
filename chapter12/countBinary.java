@@ -16,5 +16,5 @@ public void countBinary(int n, String num) {
     }
     
     countBinary(n - 1, num + "0");
-    countBinary(n - 1, num +w"1");
+    countBinary(n - 1, num + "1");
 }
