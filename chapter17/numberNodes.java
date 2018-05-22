@@ -5,17 +5,11 @@
  * values stored in the data fields. Your method should return a count of how 
  * many nodes were in the tree.
  */
-public int numberNodes() {
-    return numberNodes(overallRoot, 1);
+int numberNodes(){
+    return numberNodes(overallRoot, 1) - 1;
 }
-
-private int numberNodes(IntTreeNode node, int number) {
-    if(node == null)
-        return 0;
-        
-    node.data = number;
-    int countLeft = numberNodes(node.left, number + 1);
-    int countRight = numberNodes(node.right, number + countLeft + 1);
-    
-    return 1 + countLeft + countRight;
+int numberNodes(IntTreeNode root, int number){
+    if(root == null) return number;
+    root.data = number;
+    return numberNodes(root.right, numberNodes(root.left, number + 1));
 }
