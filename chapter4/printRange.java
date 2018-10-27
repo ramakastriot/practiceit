@@ -7,10 +7,11 @@
 public void printRange(int a, int b) {
     while(a != b) {
         System.out.print(a + " ");
-        if(a < b)
+        if(a < b) {
             a++;
-        else
+        } else {
             a--;
+        }
     }
     System.out.print(a);
 }
