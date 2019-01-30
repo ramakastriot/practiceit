@@ -2,13 +2,11 @@
  * parameter and that removes all of the strings of even length from the list.
  */
 public void removeEvenLength(ArrayList<String> list) {
-    ArrayList<String> temp = new ArrayList<String>();
 
-    for(int i = 0; i < list.size(); i++) {
-        if(list.get(i).length() % 2 == 1)
-            temp.add(list.get(i));
+    for(int head = 0; head < list.size(); head++) {
+        if (list.get(head).length() % 2 == 0) {
+            list.remove(head);
+            head--;
+        }
     }
-
-    list.clear();
-    list.addAll(temp);
 }
